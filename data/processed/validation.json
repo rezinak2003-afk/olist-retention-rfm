@@ -1,0 +1,8 @@
+{
+  "rows": 98207,
+  "distinct_orders": 98207,
+  "duplicate_order_rows": 0,
+  "orders_without_review": 734,
+  "orders_without_delivery_date": 1737,
+  "orders_without_payment_value": 1
+}

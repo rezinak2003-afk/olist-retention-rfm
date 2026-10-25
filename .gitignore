@@ -1,0 +1,32 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+*.duckdb
+*.duckdb.wal
+.DS_Store
+Thumbs.db
+# Never commit the downloaded licensed source data.
+data/raw/*
+!data/raw/.gitkeep
+# Detailed row-level data is generated locally for Power BI; publish only aggregate outputs.
+data/processed/orders_enriched.csv
+data/processed/rfm_customers.csv
+
+# Local databases and private/row-level data
+*.duckdb
+*.duckdb.wal
+data/processed/orders_enriched.csv
+data/processed/rfm_customers.csv
+data/processed/powerbi_import_remaining.xlsx
+.venv/
+
+# Local database and sensitive/generated data
+*.duckdb
+*.duckdb.wal
+.venv/
+data/raw/*
+!data/raw/.gitkeep
+data/processed/orders_enriched.csv
+data/processed/rfm_customers.csv
+data/processed/powerbi_import_remaining.xlsx
